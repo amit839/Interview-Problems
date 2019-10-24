@@ -1,3 +1,4 @@
+/*
 A sorted array of integers, A contains 1, plus some number of primes. Then, for every p < q in the list, we consider the fraction p/q. What is the B-th smallest fraction considered? Return your answer as an array of integers, where answer[0] = p and answer[1] = q. 
 
 Input Format:
@@ -9,7 +10,6 @@ Return an array of two integers, where answer[0] = p and answer[1] = q.
 
 Constraints:
 1 <= length(A) <= 2000
-/*
 1 <= A[i] <= 30000
 1 <= K <= length(A)*(length(A) - 1)/2
 
