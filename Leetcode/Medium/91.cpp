@@ -1,23 +1,29 @@
-// https://leetcode.com/problems/decode-ways/
-
 class Solution {
 public:
     
-    int ways(int i, string s, vector<int>& dp){
-        if(i == s.size()) return 1;
-        if(s[i] == '0') return 0;
+    int n;
+    string s;
+    vector<int> dp;
+    
+    int ways(int i){
+        // base case
+        if(i < 0) return 1;
         
         if(dp[i] != -1) return dp[i];
         
-        int val = i < s.size() - 1 ? stoi(s.substr(i, 2)) : 27;
-        int ans = ways(i + 1, s, dp);
-        if(val < 27) ans += ways(i + 2, s, dp);
+        int ans = 0;
+        if(s[i] != '0') ans = ways(i - 1);
+        if(i - 1 > -1 and s[i - 1] == '1') ans += ways(i - 2);
+        else if(i - 1 > -1 and s[i - 1] == '2' and s[i] < '7')
+            ans += ways(i - 2);
         
         return dp[i] = ans;
     }
     
     int numDecodings(string s) {
-        vector<int> dp(s.size() + 1, -1);
-        return ways(0, s, dp);  
+        this->s = s;
+        n = s.size();
+        dp = vector<int>(n + 1, -1);
+        return ways(n - 1);
     }
 };

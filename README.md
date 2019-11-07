@@ -1,23 +1,39 @@
 # Interview-Problems
 This repository contains my solutions to some of the interview problems on Leetcode and InterviewBit.
 
+## My Programming Handles
+| Platform | Handle |
+| -------- | ------ |
+|Leetcode|[amit_839](https://leetcode.com/amit_839/)|
+|Codechef|[amit_839](https://www.codechef.com/users/amit_839)|
+|HackerRank|[akp_1997](https://www.hackerrank.com/akp_1997?hr_r=1)|
+|Codeforces|[amit_839](https://codeforces.com/profile/amit_839)|
+|Hackerearth|[amitpandey839](https://www.hackerearth.com/@amitpandey839)|
+|Spoj|[amit_839](https://www.spoj.com/users/amit_839/)|
+
 ## C++ Solution for Leetcode
 
 #### [Difficulty Level - <span style="color:green">Easy</span>](./Leetcode/Easy/)
 | # | Title | Solution |
 |---| ----- | -------- |
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./Leetcode/Easy/20.cpp)|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/Easy/53.cpp)|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/Easy/70.cpp)|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C++](./Leetcode/Easy/104.cpp)|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[C++](./Leetcode/Easy/108.cpp)|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./Leetcode/Easy/121.cpp)|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./Leetcode/Easy/125.cpp)|
 |136|[Single Number](https://leetcode.com/problems/single-number/submissions/)|[C++](./Leetcode/Easy/136.cpp)|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](./Leetcode/Easy/160.cpp)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./Leetcode/Easy/169.cpp)|
+|198|[House Robber](https://leetcode.com/problems/house-robber/)|[C++](./Leetcode/Easy/198.cpp)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](./Leetcode/Easy/206.cpp)|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](./Leetcode/Easy/237.cpp)|
 |283|[Move Zeros](https://leetcode.com/problems/move-zeroes/)|[C++](./Leetcode/Easy/283.cpp)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/Easy/344.cpp)|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[C++](./Leetcode/Easy/345.cpp)|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[C++](./Leetcode/Easy/371.cpp)|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C++](./Leetcode/Easy/387.cpp)|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[C++](./Leetcode/Easy/409.cpp)|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[C++](./Leetcode/Easy/412.cpp)|
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[C++](./Leetcode/Easy/872.cpp)|
@@ -37,6 +53,7 @@ This repository contains my solutions to some of the interview problems on Leetc
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[C++](./Leetcode/Medium/46.cpp)|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](./Leetcode/Medium/54.cpp)|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./Leetcode/Medium/55.cpp)|
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/Medium/62.cpp)|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/Medium/78.cpp)|
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./Leetcode/Medium/79.cpp)|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/Medium/91.cpp)|
@@ -44,11 +61,15 @@ This repository contains my solutions to some of the interview problems on Leetc
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[C++](./Leetcode/Medium/98.cpp)|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[C++](./Leetcode/Medium/127.cpp)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./Leetcode/Medium/138.cpp)|
+|139|[Word Break](https://leetcode.com/problems/word-break/)|[C++](./Leetcode/Medium/139.cpp)|
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[C++](./Leetcode/Medium/152.cpp)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./Leetcode/Medium/162.cpp)|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](./Leetcode/Medium/179.cpp)|
 |220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[C++](./Leetcode/Medium/220.cpp)|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[C++](./Leetcode/Medium/230.cpp)|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./Leetcode/Medium/238.cpp)|
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[C++](./Leetcode/Medium/279.cpp)|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./Leetcode/Medium/300.cpp)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./Leetcode/Medium/322.cpp)|
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[C++](./Leetcode/Medium/334.cpp)|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[C++](./Leetcode/Medium/347.cpp)|
@@ -72,13 +93,17 @@ This repository contains my solutions to some of the interview problems on Leetc
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/Hard/10.cpp)|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./Leetcode/Hard/23.cpp)|
+|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/Hard/44.cpp)|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii)|[C++](./Leetcode/Hard/45.cpp)|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./Leetcode/Hard/72.cpp)|
 |97|[InterLeaving String](https://leetcode.com/problems/interleaving-string/)|[C++](./Leetcode/Hard/97.cpp)|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[C++](./Leetcode/Hard/124.cpp)|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)|[C++](./Leetcode/Hard/126.cpp)|
+|140|[Word Break II](https://leetcode.com/problems/word-break-ii/)|[C++](./Leetcode/Hard/140.cpp)|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[C++](./Leetcode/Hard/312.cpp)|
 |410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[C++](./Leetcode/Hard/410.cpp)|
+|639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[C++](./Leetcode/Hard/639.cpp)|
 |1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)|[C++](./Leetcode/Hard/1000.cpp)|
 |1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|[C++](./Leetcode/Hard/1095.cpp)|
