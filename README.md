@@ -54,6 +54,7 @@ This repository contains my solutions to some of the interview problems on Leetc
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](./Leetcode/Medium/54.cpp)|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./Leetcode/Medium/55.cpp)|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/Medium/62.cpp)|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C+++](./Leetcode/Medium/64.cpp)|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/Medium/78.cpp)|
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./Leetcode/Medium/79.cpp)|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/Medium/91.cpp)|
@@ -79,6 +80,7 @@ This repository contains my solutions to some of the interview problems on Leetc
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./Leetcode/Medium/647.cpp)|
 |866|[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/)|[C++](./Leetcode/Medium/866.cpp)|
 |898|[Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)|[C++](./Leetcode/Medium/898.cpp)|
+|931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[C++](./Leetcode/Medium/931.cpp)|
 |1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)|[C++](./Leetcode/Medium/1072.cpp)|
 |1091|[Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[C++](./Leetcode/Medium/1091.cpp)|
 |1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[C++](./Leetcode/Medium/1130.cpp)|
@@ -87,6 +89,7 @@ This repository contains my solutions to some of the interview problems on Leetc
 |1177|[Can Make Palindrome from Substrings](https://leetcode.com/contest/weekly-contest-152/problems/can-make-palindrome-from-substring/)|[C++](./Leetcode/Medium/1177.cpp)|
 |1186|[Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)|[C++](./Leetcode/Medium/1186.cpp)|
 |1219|[Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/)|[C++](./Leetcode/Medium/1219.cpp)|
+|1227|[Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/)|[C++](./Leetcode/Medium/1227.cpp)|
 
 
 #### [Difficulty Level - <span style="color:red">Hard</span>](./Leetcode/Hard/)
@@ -95,6 +98,7 @@ This repository contains my solutions to some of the interview problems on Leetc
 |---| ----- | -------- |
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/Hard/10.cpp)|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./Leetcode/Hard/23.cpp)|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[C++](./Leetcode/Hard/42.cpp)|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/Hard/44.cpp)|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii)|[C++](./Leetcode/Hard/45.cpp)|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./Leetcode/Hard/72.cpp)|
