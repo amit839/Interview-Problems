@@ -41,3 +41,26 @@ public:
         return go(n - 1, m - 1);
     }
 };
+
+
+int Solution::isMatch(const string a, const string b) {
+    int n = a.size(), m = b.size();
+    vector<int> prev(m + 1), current(m + 1);
+    
+    prev[0] = 1;
+    for(int j = 1; j <= m; j++) if(b[j - 1] == '*') prev[j] = prev[j - 1];
+    
+    
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= m; j++){
+            if(a[i - 1] == b[j - 1] or b[j - 1] == '?') current[j] = prev[j - 1];
+            else if(b[j - 1] != '*') current[j] = 0;
+            else {
+                current[j] = current[j - 1] | prev[j];
+            }
+        }
+        prev = current;
+    }
+    
+    return prev[m];
+}
