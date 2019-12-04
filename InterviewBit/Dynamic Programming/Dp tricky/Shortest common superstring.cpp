@@ -26,32 +26,7 @@ int get_len(string& a, string& b){
     return j;
 }
 
-bool kmp(string& text, string& pattern) {
-    int n = text.size(), m = pattern.size();
-
-    vector<int> lps(m, 0);
-    int i = 0, j = 1;
-    while (j < m) {
-        if (pattern[i] == pattern[j]) {
-            lps[j] = i + 1;
-            i++, j++;
-        }
-        else {
-            if (i == 0) j++;
-            else i = lps[i - 1];
-        }
-    }
-
-    i = 0, j = 0;
-
-    while (i < n and j < m) {
-        if (text[i] == pattern[j]) i++, j++;
-        else if(j > 0 ) j = lps[j - 1];
-        else i++;
-    }
-
-    return j == m;
-}
+// dp[i][j] -> minimum size to merge j strings ending with i
 
 int go(int i, int mask) {
     if (__builtin_popcount(mask) == n) return 0;
@@ -75,31 +50,8 @@ int Solution::solve(vector<string> &A) {
     a.clear();
     dp.clear();
     common.clear();
-    n = 0;
 
-    sort(A.begin(), A.end(), [](string x, string y)->bool{
-        return x.size() < y.size();
-    });
-
-    vector<string> new_a;
-
-    for(int i = 0; i < n; i++) {
-        bool found = 0;
-        for(int j = i + 1; j < n; j++) {
-            if(kmp(A[j], A[i])){
-                found = 1;
-                break;
-            }
-        }
-        if(!found) new_a.push_back(a[i]);
-    }
-
-    if(new_a.empty()){
-        a = A;
-    }else{
-        a = new_a;
-    }
-
+    a = A;
     n = a.size();
 
     common = vector<vector<int>>(n, vector<int>(n));
