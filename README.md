@@ -33,6 +33,8 @@ This repository contains my solutions to some of the interview problems on Leetc
 |639|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)|[C++](./Leetcode/Hard/639.cpp)|
 |1000|[Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)|[C++](./Leetcode/Hard/1000.cpp)|
 |1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|[C++](./Leetcode/Hard/1095.cpp)|
+|1434|[Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)|[C++](./Leetcode/Hard/1434.cpp)|
+
 
 
 #### [Difficulty Level - <span style="color:orange">Medium</span>](./Leetcode/Medium/)
